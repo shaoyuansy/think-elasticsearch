@@ -1,0 +1,19 @@
+{
+    "name": "topthink/think-elasticsearch",
+    "description": "A encapsulation interface for elasticsearch php api.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ShaoYuan",
+            "email": "shaoyuansy@veda.com"
+        }
+    ],
+    "require": {
+        "elasticsearch/elasticsearch":"~6.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "think\\elasticsearch\\": "\\src"
+        }
+    }
+}
