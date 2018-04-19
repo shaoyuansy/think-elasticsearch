@@ -45,6 +45,8 @@ $result = Esdb::esGet($filter);
 > 根据ID查询
 
 ```
+例如:
+
 $id = "VdOa3GIBv0F8YUCs1PVZ";
 
 $result = Esdb::esGetById($id);
@@ -53,6 +55,8 @@ $result = Esdb::esGetById($id);
 > 插入一条数据
 
 ```
+例如:
+
 $id = null;
 
 $data = [
@@ -66,6 +70,8 @@ $result = Esdb::esInsert($data, $id);
 > 批量插入数据
 
 ```
+例如:
+
 $data_list = [
     [
         "id"       =>  "VdOa3GIBv0F8YUCs1PVZ",
@@ -83,6 +89,8 @@ $result = Esdb::esInsertAll($data_list);
 > 修改记录
 
 ```
+例如:
+
 $data = [
     "content"=>"think"
 ];
@@ -95,6 +103,8 @@ $result = Esdb::esUpdateById($data, $id);
 > 删除一条记录
 
 ```
+例如:
+
 $id = 'VNOa3GIBv0F8YUCs1PVZ';
 
 $result = Esdb::esDeleteById($id);
@@ -103,6 +113,8 @@ $result = Esdb::esDeleteById($id);
 > 批量删除
 
 ```
+例如:
+
 $ids = ['gNPW3GIBv0F8YUCsbPUZ',"VdOa3GIBv0F8YUCs1PVX"];
 
 $result = Esdb::esDeleteByIds($id);
