@@ -16,7 +16,7 @@ class Builder
                     'index' =>  $index,
                     'type'  =>  $type,
                     'from'  =>  $data[4],
-                    'body'  =>  $data[3] //upgrade
+                    'body'  =>  $data[3] 
                 ];
                 if ($data[5]) {
                     $query['size'] = $data[5];
