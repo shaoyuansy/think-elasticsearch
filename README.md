@@ -8,7 +8,7 @@
 > 需要继承 \\think\\elasticsearch\\ES 类，覆盖es配置
 
 ```
-如:
+例如:
 
 use think\elasticsearch\ES;
 
@@ -27,6 +27,8 @@ class Esdb extends ES {
 > 条件查询
 
 ```
+例如:
+
 $filter = [
     'query' =>  [
         "bool"  =>  [
