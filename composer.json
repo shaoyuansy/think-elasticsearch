@@ -1,5 +1,5 @@
 {
-    "name": "topthink/think-elasticsearch",
+    "name": "syqmk/think-elasticsearch",
     "description": "A encapsulation interface for elasticsearch php api.",
     "license": "MIT",
     "authors": [
